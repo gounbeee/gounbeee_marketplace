@@ -80,16 +80,16 @@ const NftCreate: NextPage = () => {
     try {
       const {signedData, account} = await getSignedData();
 
-      console.log(account)
+      //console.log(account)
 
 
       // CHECK THE USER WHO CAN UPLOAD SOMETHING !
       //if(account !== process.env.ACCOUNT_0_GANACHE_IMPORTED_ID 
 
 
-      console.log(gounbeeeMainAccountID)
-      console.log(account0GanacheImportedID)
-      console.log(testStatus)
+      // console.log(gounbeeeMainAccountID)
+      // console.log(account0GanacheImportedID)
+      // console.log(testStatus)
 
 
       if( testStatus  === 'Development' ) {
@@ -126,6 +126,11 @@ const NftCreate: NextPage = () => {
           error: "Image upload error"
         }
       )
+
+
+      console.log(res)
+
+
 
       const data = res.data as PinataRes;
 
@@ -186,6 +191,9 @@ const NftCreate: NextPage = () => {
 
       const data = res.data as PinataRes;
       setNftURI(`${process.env.NEXT_PUBLIC_PINATA_DOMAIN}/ipfs/${data.IpfsHash}`);
+
+
+
     } catch (e: any) {
       console.error(e.message);
     }

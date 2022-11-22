@@ -15,19 +15,22 @@ function shortifyAddress(address: string) {
 
 
 
-const NftItem: FunctionComponent<NftItemProps> = ({item, buyNft}) => {
+const NftItem: FunctionComponent<NftItemProps> = ({item, buyNft }) => {
 
-  // console.log(item)
-  // console.log(buyNft)
+  //console.log(item)
+  //console.log(buyNft)
 
+
+  //console.log(`**** FOR DEVELOPMENT + UI DESIGNING  --->  ${isDummy}`)
 
   return (
     <>
+
       <div className="flex-shrink-0">
         <img
-          className={`h-full w-full object-cover`}
+          className={`max-h-96 w-full object-cover`}
           src={item.meta.image}
-          alt="New NFT"
+          alt="MemoriesOfGounbeee"
         />
       </div>
       <div className="flex-1 text-gray-100 bg-gray-800 p-6 flex flex-col justify-between">
@@ -91,7 +94,7 @@ const NftItem: FunctionComponent<NftItemProps> = ({item, buyNft}) => {
         </div>
 
 
-        <div className="flex my-3">
+        <div className="flex my-3 justify-center ">
 
           {/* BUY BUTTON */}
           <button
@@ -99,25 +102,31 @@ const NftItem: FunctionComponent<NftItemProps> = ({item, buyNft}) => {
               buyNft(item.tokenId, item.price);
             }}
             type="button"
-            className="w-full justify-center disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none disabled:cursor-not-allowed px-4 py-2 border border-transparent text-base font-medium shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-red-500"
+            className="w-full disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none disabled:cursor-not-allowed px-4 py-2 border border-transparent text-base font-medium shadow-sm text-white bg-red-600 font-bold hover:bg-red-700 focus:outline-none focus:ring-red-500"
           >
-            Buy
+            Purchase
           </button>
 
           {/* PREVIEW BUTTON */}
-          {/*
-          <button
-            type="button"
-            className="ml-3 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none disabled:cursor-not-allowed inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-base font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+          <a
+            target="_blank"
+            href={item.meta.image}
+            className="w-full justify-center ml-3 disabled:justify-center disabled:bg-slate-600 disabled:text-slate-500 disabled:shadow-none disabled:cursor-not-allowed inline-flex items-center px-4 py-2 shadow-sm text-base font-medium text-gray-500 font-bold bg-red-300 hover:bg-red-200 focus:outline-none focus:ring-red-500"
           >
             Preview
-          </button>
-          */}
+          </a>
+
 
         </div>
       </div>
+
+
+
     </>
   )
+
+
+
 }
 
 export default NftItem;

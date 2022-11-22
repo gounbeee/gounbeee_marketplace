@@ -1,37 +1,188 @@
-[{
-  "description": "Fierce violet creature. Very durable and tanky.",
-  "image": "https://eincode.mypinata.cloud/ipfs/QmaQYCrX9Fg2kGijqapTYgpMXV7QPPzMwGrSRfV9TvTsfM/Creature_1.png",
-  "name": "Eincode Creature #1",
+[
+
+  {
+  "description": "Memory description 01",
+  "image": "images_DUMMY/dummy_img_01.png",
+  "name": "Memory #1",
   "attributes": [
     {
-      "trait_type": "attack",
+      "trait_type": "food",
       "value": "20"
     },
     {
-      "trait_type": "health",
+      "trait_type": "clothing",
       "value": "100"
     },
     {
-      "trait_type": "speed",
+      "trait_type": "housing",
       "value": "30"
     }
   ]
 },{
-  "description": "Fierce blueish creature. Avarage in attack and speed.",
-  "image": "https://eincode.mypinata.cloud/ipfs/QmaQYCrX9Fg2kGijqapTYgpMXV7QPPzMwGrSRfV9TvTsfM/Creature_2.png",
-  "name": "Eincode Creature #2",
+  "description": "Memory description 02",
+  "image": "images_DUMMY/dummy_img_02.png",
+  "name": "Memory #2",
   "attributes": [
     {
-      "trait_type": "attack",
+      "trait_type": "food",
       "value": "40"
     },
     {
-      "trait_type": "health",
+      "trait_type": "clothing",
       "value": "80"
     },
     {
-      "trait_type": "speed",
+      "trait_type": "housing",
       "value": "50"
     }
   ]
-}]
+},{
+  "description": "Memory description 03",
+  "image": "images_DUMMY/dummy_img_03.png",
+  "name": "Memory #3",
+  "attributes": [
+    {
+      "trait_type": "food",
+      "value": "40"
+    },
+    {
+      "trait_type": "clothing",
+      "value": "80"
+    },
+    {
+      "trait_type": "housing",
+      "value": "50"
+    }
+  ]
+},{
+  "description": "Memory description 04",
+  "image": "images_DUMMY/dummy_img_04.png",
+  "name": "Memory #4",
+  "attributes": [
+    {
+      "trait_type": "food",
+      "value": "40"
+    },
+    {
+      "trait_type": "clothing",
+      "value": "80"
+    },
+    {
+      "trait_type": "housing",
+      "value": "50"
+    }
+  ]
+},{
+  "description": "Memory description 05",
+  "image": "images_DUMMY/dummy_img_05.png",
+  "name": "Memory #5",
+  "attributes": [
+    {
+      "trait_type": "food",
+      "value": "40"
+    },
+    {
+      "trait_type": "clothing",
+      "value": "80"
+    },
+    {
+      "trait_type": "housing",
+      "value": "50"
+    }
+  ]
+},{
+  "description": "Memory description 06",
+  "image": "images_DUMMY/dummy_img_06.png",
+  "name": "Memory #6",
+  "attributes": [
+    {
+      "trait_type": "food",
+      "value": "40"
+    },
+    {
+      "trait_type": "clothing",
+      "value": "80"
+    },
+    {
+      "trait_type": "housing",
+      "value": "50"
+    }
+  ]
+},{
+  "description": "Memory description 07",
+  "image": "images_DUMMY/dummy_img_07.png",
+  "name": "Memory #7",
+  "attributes": [
+    {
+      "trait_type": "food",
+      "value": "40"
+    },
+    {
+      "trait_type": "clothing",
+      "value": "80"
+    },
+    {
+      "trait_type": "housing",
+      "value": "50"
+    }
+  ]
+},{
+  "description": "Memory description 08",
+  "image": "images_DUMMY/dummy_img_08.png",
+  "name": "Memory #8",
+  "attributes": [
+    {
+      "trait_type": "food",
+      "value": "40"
+    },
+    {
+      "trait_type": "clothing",
+      "value": "80"
+    },
+    {
+      "trait_type": "housing",
+      "value": "50"
+    }
+  ]
+},{
+  "description": "Memory description 09",
+  "image": "images_DUMMY/dummy_img_09.png",
+  "name": "Memory #9",
+  "attributes": [
+    {
+      "trait_type": "food",
+      "value": "40"
+    },
+    {
+      "trait_type": "clothing",
+      "value": "80"
+    },
+    {
+      "trait_type": "housing",
+      "value": "50"
+    }
+  ]
+},{
+  "description": "Memory description 10",
+  "image": "images_DUMMY/dummy_img_10.png",
+  "name": "Memory #10",
+  "attributes": [
+    {
+      "trait_type": "food",
+      "value": "40"
+    },
+    {
+      "trait_type": "clothing",
+      "value": "80"
+    },
+    {
+      "trait_type": "housing",
+      "value": "50"
+    }
+  ]
+}
+
+
+
+
+]

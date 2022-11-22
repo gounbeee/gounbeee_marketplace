@@ -11,7 +11,11 @@ type UseOwnedNftsResponse = {
 }
 type OwnedNftsHookFactory = CryptoHookFactory<Nft[], UseOwnedNftsResponse>
 
+
+
 export type UseOwnedNftsHook = ReturnType<OwnedNftsHookFactory>
+
+
 
 export const hookFactory: OwnedNftsHookFactory = ({contract}) => () => {
   const {data, ...swr} = useSWR(

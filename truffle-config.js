@@ -33,6 +33,18 @@ module.exports = {
       gasPrice: 20000000000,
       confirmations: 2,
       timeoutBlocks: 200
+    },
+    mainnet: {
+      provider: () => 
+        new HDWalletProvider(
+          keys.PRIVATE_KEY,
+          keys.INFURA_MAINNET_URL
+        ),
+      network_id: 1,
+      gas: 5500000,
+      gasPrice: 20000000000,
+      confirmations: 2,
+      timeoutBlocks: 200
     }
   },
   compilers: {

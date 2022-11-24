@@ -43,7 +43,8 @@ export function withSession(handler: any) {
 
 
 const url = process.env.NODE_ENV === "production" ? 
-  process.env.INFURA_GOERLI_URL : 
+  //process.env.INFURA_MAINNET_URL : 
+  process.env.INFURA_MAINNET_URL : 
   "http://127.0.0.1:7545";
 
 
